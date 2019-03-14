@@ -1,0 +1,19 @@
+{
+  "name": "mpgengenharia.github.io",
+  "version": "1.0.0",
+  "description": "MPG Engenharia website",
+  "private": true,
+  "scripts": {
+    "start": "jekyll s w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpgengenharia/mpgengenharia.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/mpgengenharia/mpgengenharia.github.io/issues"
+  },
+  "homepage": "https://mpgengenharia.com.br"
+}

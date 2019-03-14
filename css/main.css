@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eee;
+    background: #020c24 url('/img/bg.jpg') center no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.wrapper > li {
+    list-style: none;
+}
+
+.site-header {
+    text-align: center;
+}
+
+.site-title {
+
+}
+
+.features {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features-list {
+    font-size: 1.5em;
+}
+
+.features-list li {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo-container {
+    flex: 0 1 300px;
+    margin-left: 20px;
+}
+
+.site-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contacts > * {
+    display: inline-block;
+}
+
+.contacts a {
+    padding: 10px;
+    display: inline-block;
+}
